@@ -26,6 +26,10 @@ refs.formEl.addEventListener("submit", e => {
            message:
              'Sorry, there are no images matching your search query. Please try again!',
            position: 'topRight',
+           icon: 'error',
+           backgroundColor: '#ef4040',
+           iconColor:"white",
+           messageColor: 'white',
          });
        } else {
          createGallery(images);

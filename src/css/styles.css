@@ -151,3 +151,18 @@ border: 1px solid #000;
     letter-spacing: 0.04em;
     color: #2e2f42;
 }
+.error{
+  background-image: url("../img/error.svg");
+}
+
+.iziToast>.iziToast-close {
+  background: none !important;
+}
+
+
+.iziToast>.iziToast-close:before {
+  content: url('../img/close.svg');
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
