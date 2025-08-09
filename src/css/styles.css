@@ -5,6 +5,8 @@
   display: inline-block;
   --base-color: #ffffff;
   /*use your base color*/
+margin-left: calc((100% - 60px) / 2);
+margin-top: 50px;
 }
 
 .loader::before {
